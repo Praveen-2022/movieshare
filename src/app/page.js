@@ -1,10 +1,11 @@
-import React from "react";
+import Herosection from "@/app/components/Herosection";
 
-const Page= ()=>{
-  return(
-    <>
-    <h1>Hello Praveen</h1>
-    </>
-  )
-}
+const Page = () => {
+    return (
+        <>
+          <Herosection title={"LET\'S WATCH MOVIE TOGETHER"} imageUrl={"/home.svg"} />
+        </>
+    );
+};
+
 export default Page;
